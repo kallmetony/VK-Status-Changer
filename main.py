@@ -1,8 +1,6 @@
 import requests
 import time
 
-#Gets token value from .env file, you can also use token = *your token goes here*
-#Получает токен из файла .env, можно так же использовать token = *ваш токен*
 token = #your token goes here
 
 #Specify time to wait between changes (must be more than 60 otherwise you can get ban by vk)
