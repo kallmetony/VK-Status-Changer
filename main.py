@@ -9,7 +9,7 @@ def wait():
   time.sleep(60)
 
 #Method to set status, where text is text to be place in status and token is your page token
-#Метода для установки статуса, где text - текст в статус, token - токен вашей страницы в вк
+#Метод для установки статуса, где text - текст в статус, token - токен вашей страницы в вк
 def setStatus(text):
   requests.get(f'https://api.vk.com/method/status.set?text={text}&access_token={token}&v=5.131')
 
